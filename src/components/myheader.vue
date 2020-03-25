@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark header-nav">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
@@ -20,3 +20,13 @@
         </nav>
     </div>
 </template>
+
+<style scoped>
+.header {
+  height: 70px;
+}
+.header-nav {
+  background-color: #ff7f50;
+  height: 70px;
+}
+</style>
