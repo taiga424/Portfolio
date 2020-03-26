@@ -1,5 +1,4 @@
 <template>
-<div class="bg" :style="{ 'background-image': 'url('+staticImage+')' }">
   <section>
     <h1 class="title">
       <span
@@ -19,7 +18,6 @@
       />
     </p>
   </section>
-</div>
 </template>
 
 <script>
@@ -27,8 +25,7 @@ export default {
   data () {
     return {
       text: "Welcom to Taiga's Portfolio Site",
-      title: 'Taiga Furui',
-      staticImage: 'static/photo.jpeg'
+      title: 'Taiga Furui'
     }
   }
 }
@@ -40,7 +37,6 @@ export default {
 section {
   width: 100%;
   height: 90vh;
-  text-align: center;
   padding: 150px;
 }
 .title {
@@ -52,10 +48,6 @@ section {
 .subtitle {
   margin-top: 30px;
   font-size: 40px;
-}
-
-.bg {
-    background-size: cover;
 }
 
 @keyframes titleIn {

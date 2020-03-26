@@ -24,5 +24,10 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #ff7f50;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+html {
+  background-color: #f8f8f8;
 }
 </style>
