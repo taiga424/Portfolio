@@ -13,7 +13,7 @@
       <span
       v-for="(t, index) in text"
       :key="index"
-      :style="{animationDelay: index*100+1200+'ms'}"
+      :style="{animationDelay: index*100+600+'ms'}"
       v-text="t"
       />
     </p>
@@ -65,8 +65,8 @@ section {
 
 span {
 	color: transparent;
-    animation: subtitleIn 6s ease-out 1;
-    animation-fill-mode: forwards;
+  animation: subtitleIn 5s ease-out 1;
+  animation-fill-mode: forwards;
 }
 
 @keyframes subtitleIn {

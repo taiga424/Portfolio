@@ -2,7 +2,7 @@
     <div class="container">
         <div class="card">
             <div class="front side">
-                <h1 class="logo">ABOUT ME</h1>
+                <h1 class="logo">ABOUT ME<br><span>Please touch</span><br></h1>
             </div>
             <div class="back side">
                 <h3 class="name">Hello I'm Taiga</h3>
@@ -57,37 +57,38 @@ body { background: #757575; overflow-x: hidden; }
 }
 
 /* Flip the card on hover */
-.container:hover .card,
-.back {
+.card:hover, .back {
   transform: rotateY(-180deg) translateZ(1px);
 }
 
 /* Front styling */
 .front {
   /* Center the name + outline (almost) */
-  line-height: 500px; /* Height - some (because visual center is a little higher than actual center) */
+  line-height: 500px;
   text-align: center;
-  background: #fff;
+  background: #f5f5f5;
 }
 .logo {
-  width: 300px;
-  height: 80px;
   color: #ff7f50;
   display: inline-block;
-  text-transform: uppercase;
+  font-size: 55px;
+  line-height: 0.8;
   font-family: 'Ubuntu Mono', monospace;
   font-weight: bolder;
-  line-height: 80px;
   letter-spacing: 8px;
+  text-shadow: 2px 2px rgba(0,0,0,.2);
+}
+span {
+  font-size: 20px;
 }
 /* Back styling */
 .back {
-  background: #ff7f50;
+  background: #ffa07a;
   padding: 30px;
 }
 img {
   border-radius: 50%;
-  margin: 0 20px 20px 0;
+  margin: 0 20px 30px 0;
   object-fit: cover;
   object-position: top;
 }
@@ -103,7 +104,7 @@ a {
 }
 .info {
   position: absolute;
-  bottom: 30px;
+  bottom: 10px;
   text-align: left;
   color: #3b3b3b;
 }
@@ -112,10 +113,13 @@ a {
 }
 .profile {
   display: flex;
+  justify-content: start;
 }
 .text {
   text-align: left;
   margin: auto 0;
+  color: #383838;
+  font-weight: bold;
 }
 /* Make semi-responsive */
 @media (max-width:700px) {
