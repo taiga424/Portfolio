@@ -21,13 +21,13 @@
 </template>
 
 <script>
-import AssetsImage from "@/assets/photo1.jpeg";
+import AssetsImage from '@/assets/photo1.jpeg'
 export default {
   data () {
     return {
       assetsImage: AssetsImage,
       text: "Welcome to Taiga's Portfolio Site",
-      title: 'Taiga Furui',
+      title: 'Taiga Furui'
     }
   }
 }
