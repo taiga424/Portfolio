@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <div id="home" :style="{ 'background-image': 'url(' + assetsImage + ')' }">
     <h1 class="title">
       <span
       v-for="(t, index) in title"
@@ -17,27 +17,29 @@
       v-text="t"
       />
     </p>
-  </section>
+  </div>
 </template>
 
 <script>
+import AssetsImage from "@/assets/photo1.jpeg";
 export default {
   data () {
     return {
-      text: "Welcom to Taiga's Portfolio Site",
-      title: 'Taiga Furui'
+      assetsImage: AssetsImage,
+      text: "Welcome to Taiga's Portfolio Site",
+      title: 'Taiga Furui',
     }
   }
 }
 </script>
 
 <style scoped>
- @import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+  @import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
 
-section {
+#home {
   width: 100%;
-  height: 90vh;
-  padding: 150px;
+  height: 100vh;
+  padding: 230px 150px 150px 150px;
 }
 .title {
   font-size: 70px;

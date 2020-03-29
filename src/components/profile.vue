@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div id="profile">
         <div class="card">
             <div class="front side">
                 <h1 class="logo">ABOUT ME<br><span>Please touch</span><br></h1>
@@ -8,7 +8,9 @@
                 <h3 class="name">Hello I'm Taiga</h3>
                 <div>My Profile</div>
                 <div class="profile">
-                    <img src="static/profile.jpeg" alt="Taiga logo" width="250" height="250">
+                    <div class="image">
+                      <img src="static/profile.jpeg" alt="Taiga logo">
+                    </div>
                     <p class="text">今年22歳のTaigaと申します。
                     <br>2020年4月にプログラミングスクールTECH CAMPを卒業し、現在は就職活動をしながらAWS、Vue.jsなどを学習中です。
                     <br>スクールでは主にHTML&CSSやJavaScript、Ruby on Rails、GitHubを学びました。</p>
@@ -29,12 +31,15 @@
 
 * { box-sizing: border-box; }
 
-body { background: #757575; overflow-x: hidden; }
-.container {
+#profile {
+  padding: 30px;
   perspective: 800px;
   /* Styling */
   color: #3b3b3b;
   letter-spacing: 4px;
+  background-color: #dedede;
+	background-image: linear-gradient(#ecebeb 50%, transparent 50%, transparent);
+	background-size: 10px 10px;
 }
 .card {
   /* Styling */
@@ -44,7 +49,7 @@ body { background: #757575; overflow-x: hidden; }
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   /* Card flipping effects */
   transform-style: preserve-3d;
-  transition: 1s;
+  transition: 1.5s;
   margin: 50px auto;
 }
 .side {
@@ -57,7 +62,7 @@ body { background: #757575; overflow-x: hidden; }
 }
 
 /* Flip the card on hover */
-.card:hover, .back {
+#profile:hover .card, .back {
   transform: rotateY(-180deg) translateZ(1px);
 }
 
@@ -83,17 +88,11 @@ span {
 }
 /* Back styling */
 .back {
-  background: #ffa07a;
+  background: #f5f5f5;
   padding: 30px;
 }
-img {
-  border-radius: 50%;
-  margin: 0 20px 30px 0;
-  object-fit: cover;
-  object-position: top;
-}
 .name {
-  color: #3B3B3B;
+  color: #ff7f50;
   margin-bottom: 0;
 }
 p {
@@ -109,7 +108,8 @@ a {
   color: #3b3b3b;
 }
 .property {
-  color: #fff;
+  color: #3B3B3B;
+  font-weight: bold;
 }
 .profile {
   display: flex;
@@ -120,6 +120,20 @@ a {
   margin: auto 0;
   color: #383838;
   font-weight: bold;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+  margin: 0 20px 30px 0;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
 }
 /* Make semi-responsive */
 @media (max-width:700px) {

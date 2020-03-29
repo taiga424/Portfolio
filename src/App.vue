@@ -1,18 +1,29 @@
 <template>
   <div id="app">
     <myheader></myheader>
-    <router-view/>
+    <home></home>
+    <profile></profile>
+    <portfolio></portfolio>
+    <skill></skill>
   </div>
 </template>
 
 <script>
 import 'normalize.css'
 import myheader from './components/myheader'
+import home from './components/home'
+import profile from './components/profile'
+import portfolio from './components/portfolio'
+import skill from './components/skill'
 
 export default {
   name: 'App',
   components: {
-    myheader
+    myheader,
+    home,
+    profile,
+    portfolio,
+    skill
   }
 }
 </script>
