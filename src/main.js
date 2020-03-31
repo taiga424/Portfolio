@@ -3,9 +3,21 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import vueSmoothScroll from 'vue-smooth-scroll'
 
+Vue.use(vueSmoothScroll)
 Vue.config.productionTip = false
 
+Vue.directive('scroll', {
+  inserted: function (el, binding) {
+    let f = function (evt) {
+      if (binding.value(evt, el)) {
+        window.removeEventListener('scroll', f)
+      }
+    }
+    window.addEventListener('scroll', f)
+  }
+})
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

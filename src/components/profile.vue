@@ -1,5 +1,6 @@
 <template>
     <div id="profile">
+    <div class="title">Profile</div>
         <div class="card">
             <div class="front side">
                 <h1 class="logo">ABOUT ME<br><span>Please touch</span><br></h1>
@@ -26,20 +27,24 @@
 </template>
 
 <style scoped>
-@import 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300';
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
 
 * { box-sizing: border-box; }
 
 #profile {
   padding: 30px;
-  perspective: 800px;
+  perspective: 1000px;
   /* Styling */
   color: #3b3b3b;
-  letter-spacing: 4px;
-  background-color: #dedede;
-	background-image: linear-gradient(#ecebeb 50%, transparent 50%, transparent);
-	background-size: 10px 10px;
+  letter-spacing: 3px;
+}
+.title {
+ font-size: 4rem;
+ font-family: AlfaSlabOne-Regular,sans-serif;
+ color: #4a4a4a;
+ letter-spacing: 1px;
+ text-align: left;
+ border-bottom: 1px solid #111;
 }
 .card {
   /* Styling */
@@ -123,6 +128,7 @@ a {
 }
 
 .image {
+
   width: 250px;
   height: 250px;
   margin: 0 20px 30px 0;
@@ -134,10 +140,5 @@ img {
   border-radius: 50%;
   object-fit: cover;
   object-position: top;
-}
-/* Make semi-responsive */
-@media (max-width:700px) {
-  .card { transform: scale(.5); }
-  .container:hover .card { transform: scale(.5) rotateY(-180deg) translateZ(1px); }
 }
 </style>

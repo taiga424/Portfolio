@@ -10,10 +10,10 @@
                         <router-link class="text-black px-3" to="/#profile">プロフィール</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="text-black px-3" to="/#portfolio">作品</router-link>
+                        <router-link class="text-black px-3" to="/#skill">スキル</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="text-black px-3" to="/#skill">スキル</router-link>
+                        <router-link class="text-black px-3" to="/#portfolio">作品</router-link>
                     </li>
                 </ul>
             </div>
@@ -48,7 +48,7 @@ export default {
   top: 0;
   z-index: 1;
   width: 100%;
-  height: 60px;
+  height: 50px;
   opacity: 0.6;
   background-color: #111;
 }
@@ -57,7 +57,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
   justify-content: space-around;
 }
 

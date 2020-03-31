@@ -3,8 +3,8 @@
     <myheader></myheader>
     <home></home>
     <profile></profile>
-    <portfolio></portfolio>
     <skill></skill>
+    <portfolio></portfolio>
   </div>
 </template>
 
