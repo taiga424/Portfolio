@@ -4,7 +4,7 @@ import Router from 'vue-router'
 import Top from '@/components/top'
 import Home from '@/components/home'
 import Profile from '@/components/profile'
-import Portfolio from '@/components/portfolio'
+import Work from '@/components/work'
 import Skill from '@/components/skill'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
@@ -27,8 +27,8 @@ export default new Router({
       component: Profile
     },
     {
-      path: '/portfolio',
-      component: Portfolio
+      path: '/work',
+      component: Work
     },
     {
       path: '/skill',

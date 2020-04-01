@@ -86,7 +86,7 @@ export default {
 
 #skill {
   padding: 30px;
-  background-color: #f6f6f6;
+  background-color: #e6e6fa;
 }
 .title {
  font-size: 4rem;
@@ -116,6 +116,7 @@ ul.cards {
 li {
   opacity: 0;
 }
+
 ul.cards li{
   width: 45%;
   height: 120px;

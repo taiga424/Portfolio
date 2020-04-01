@@ -4,7 +4,7 @@
     <home></home>
     <profile></profile>
     <skill></skill>
-    <portfolio></portfolio>
+    <work></work>
   </div>
 </template>
 
@@ -13,7 +13,7 @@ import 'normalize.css'
 import myheader from './components/myheader'
 import home from './components/home'
 import profile from './components/profile'
-import portfolio from './components/portfolio'
+import work from './components/work'
 import skill from './components/skill'
 
 export default {
@@ -22,7 +22,7 @@ export default {
     myheader,
     home,
     profile,
-    portfolio,
+    work,
     skill
   }
 }

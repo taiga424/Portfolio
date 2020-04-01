@@ -1,28 +1,28 @@
 <template>
     <div id="profile">
-    <div class="title">Profile</div>
-        <div class="card">
-            <div class="front side">
-                <h1 class="logo">ABOUT ME<br><span>Please touch</span><br></h1>
-            </div>
-            <div class="back side">
-                <h3 class="name">Hello I'm Taiga</h3>
-                <div>My Profile</div>
-                <div class="profile">
-                    <div class="image">
-                      <img src="static/profile.jpeg" alt="Taiga logo">
-                    </div>
-                    <p class="text">今年22歳のTaigaと申します。
-                    <br>2020年4月にプログラミングスクールTECH CAMPを卒業し、現在は就職活動をしながらAWS、Vue.jsなどを学習中です。
-                    <br>スクールでは主にHTML&CSSやJavaScript、Ruby on Rails、GitHubを学びました。</p>
-                </div>
-                <div class="info">
-                    <p><span class="property">Email: </span>taiga_hand4@icloud.com</p>
-                    <p><span class="property">Twitter: </span>@techcamp_taiga</p>
-                    <p><span class="property">GitHub: </span><a href="https://github.com/taiga424">https://github.com/taiga424</a></p>
-                </div>
-            </div>
-        </div>
+      <div class="title">Profile</div>
+      <div class="card">
+          <div class="front side">
+              <h1 class="logo">ABOUT ME<br><span>Please touch</span><br></h1>
+          </div>
+          <div class="back side">
+              <h3 class="name">Hello I'm Taiga</h3>
+              <div>My Profile</div>
+              <div class="profile">
+                  <div class="image">
+                    <img src="static/profile.jpeg" alt="Taiga logo">
+                  </div>
+                  <p class="text">今年22歳のTaigaと申します。
+                  <br>2020年4月にプログラミングスクールTECH CAMPを卒業し、現在は就職活動をしながらAWS、Vue.jsなどを学習中です。
+                  <br>スクールでは主にHTML&CSSやJavaScript、Ruby on Rails、GitHubを学びました。</p>
+              </div>
+              <div class="info">
+                  <p><span class="property">Email: </span>taiga_hand4@icloud.com</p>
+                  <p><span class="property">Twitter: </span>@techcamp_taiga</p>
+                  <p><span class="property">GitHub: </span><a href="https://github.com/taiga424">https://github.com/taiga424</a></p>
+              </div>
+          </div>
+      </div>
     </div>
 </template>
 
@@ -37,6 +37,7 @@
   /* Styling */
   color: #3b3b3b;
   letter-spacing: 3px;
+  background-color: #f6f6f6;
 }
 .title {
  font-size: 4rem;

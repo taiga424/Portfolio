@@ -13,7 +13,7 @@
                         <router-link class="text-black px-3" to="/#skill">Skills</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="text-black px-3" to="/#portfolio">Portforio</router-link>
+                        <router-link class="text-black px-3" to="/#work">Works</router-link>
                     </li>
                 </ul>
             </div>
