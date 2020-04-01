@@ -7,24 +7,28 @@
           <img src="static/Chatspace.png">
         </a>
         <div class="item-title">ChatSpace</div>
+        <p class="item-info">スクールのカリキュラムで作成しました。</p>
       </li>
       <li class="work-item">
         <a href="http://13.115.54.84/">
           <img src="static/BookLife.png">
         </a>
         <div class="item-title">BookLife</div>
+        <p class="item-info">初めてゼロから自分で作成しました。</p>
       </li>
       <li class="work-item">
         <a href="http://18.178.222.209">
           <img src="static/FrimaApp.png" >
         </a>
         <div class="item-title">FrimaApp</div>
+        <p class="item-info">スクールのチーム開発で作成しました。</p>
       </li>
       <li class="work-item">
         <a href="#">
           <img src="static/Portfolio.png" >
         </a>
         <div class="item-title">Portfolio</div>
+        <p class="item-info">このサイトです。Vue.jsを使って作成しました。</p>
       </li>
     </ul>
   </div>
@@ -64,9 +68,8 @@ ul.work li:nth-child(odd){
 .work-item {
   width: 45%;
   height: auto;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
-
 img {
   width: 100%;
   height: 100%;
@@ -84,6 +87,11 @@ img:hover {
   font-size: 20px;
   color: #4a4a4a;
   margin-top: 10px;
+}
+.item-info {
+  font-family: 'Sawarabi Gothic', sans-serif;
+  color: #4a4a4a;
+  font-size: 14px;
 }
 .clearfix::after {
   content: "";
