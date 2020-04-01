@@ -34,7 +34,6 @@ export default {
 </script>
 
 <style scoped>
-  @import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
 
 #home {
   width: 100%;
@@ -43,13 +42,14 @@ export default {
 }
 .title {
   font-size: 70px;
-  font-family: 'Sawarabi Mincho', sans-serif;
+  font-family: 'Ubuntu Mono', monospace;
   font-weight: bold;
   text-shadow: 2px 2px rgba(0,0,0,.2)
 }
 .subtitle {
   margin-top: 30px;
   font-size: 40px;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 @keyframes titleIn {

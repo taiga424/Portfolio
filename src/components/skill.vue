@@ -86,6 +86,7 @@ export default {
 
 #skill {
   padding: 30px;
+  background-color: #f6f6f6;
 }
 .title {
  font-size: 4rem;
@@ -134,7 +135,7 @@ ul.cards li:nth-child(odd){
 }
 .card-title {
   font-size: 22px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 .card-info {
   font-size: 14px;
@@ -142,15 +143,15 @@ ul.cards li:nth-child(odd){
   font-weight: bold;
 }
 #html {
-  background-color: #e44b23;
+  background-color: #ff07ff;
   transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 #javascrpt {
-  background-color: #f1e05a;
+  background-color: #7f00ff;
   transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 #vue {
-  background-color: #3cb371;
+  background-color: #7fff00;
   transition: 2s all cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 #jquery {
@@ -170,7 +171,7 @@ ul.cards li:nth-child(odd){
   transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 #aws {
-  background-color: #ffa500;
+  background-color: #ff7f00;
   transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 </style>

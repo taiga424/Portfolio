@@ -4,16 +4,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <router-link class="text-black px-3" to="/#home">ホーム</router-link>
+                        <router-link class="text-black px-3" to="/#home">Home</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="text-black px-3" to="/#profile">プロフィール</router-link>
+                        <router-link class="text-black px-3" to="/#profile">Profile</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="text-black px-3" to="/#skill">スキル</router-link>
+                        <router-link class="text-black px-3" to="/#skill">Skills</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="text-black px-3" to="/#portfolio">作品</router-link>
+                        <router-link class="text-black px-3" to="/#portfolio">Portforio</router-link>
                     </li>
                 </ul>
             </div>
