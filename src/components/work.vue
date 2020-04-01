@@ -1,11 +1,38 @@
 <template>
-  <div id="portfolio">
+  <div id="work" class="clearfix">
     <div class="title">Works</div>
+    <ul class="work">
+      <li class="work-item">
+        <a href="http://13.115.54.84:3000/">
+          <img src="static/Chatspace.png">
+        </a>
+        <div class="item-title">ChatSpace</div>
+      </li>
+      <li class="work-item">
+        <a href="http://13.115.54.84/">
+          <img src="static/BookLife.png">
+        </a>
+        <div class="item-title">BookLife</div>
+      </li>
+      <li class="work-item">
+        <a href="http://18.178.222.209">
+          <img src="static/FrimaApp.png" >
+        </a>
+        <div class="item-title">FrimaApp</div>
+      </li>
+      <li class="work-item">
+        <a href="#">
+          <img src="static/Portfolio.png" >
+        </a>
+        <div class="item-title">Portfolio</div>
+      </li>
+    </ul>
   </div>
 </template>
 
 <style scoped>
-#portfolio {
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+#work {
   padding: 30px;
   background-color: #f6f6f6;
 }
@@ -17,5 +44,50 @@
   letter-spacing: 1px;
   text-align: left;
   border-bottom: 1px solid #111;
+  margin-bottom: 50px;
+}
+
+.work {
+  list-style: none;
+  float: left;
+  padding: 0;
+}
+ul.work li:nth-child(even){
+  float: right;
+  margin-right: 30px;
+}
+ul.work li:nth-child(odd){
+  float: left;
+  clear: left;
+  margin-left: 30px;
+}
+.work-item {
+  width: 45%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+img:hover {
+  transform: scale(1.05);
+  transition-duration: 0.4s;
+}
+
+.item-title {
+  font-family: 'Sawarabi Gothic', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #4a4a4a;
+  margin-top: 10px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
 }
 </style>
