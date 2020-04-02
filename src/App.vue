@@ -29,6 +29,8 @@ export default {
 </script>
 
 <style>
+ * { box-sizing: border-box; }
+
 #app {
   text-align: center;
   font-size: 62.5%;
