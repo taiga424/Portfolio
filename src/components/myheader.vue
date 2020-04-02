@@ -85,7 +85,7 @@ a:hover::after {
   height: 3px;
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
   .header {
     height: 45px;
   }
@@ -99,7 +99,7 @@ a:hover::after {
     font-size: 15px;
   }
 }
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 480px) {
   .header {
     height: 25px;
   }

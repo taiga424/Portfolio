@@ -93,9 +93,9 @@ span {
   animation: subtitleIn 5s ease-out 1;
   animation-fill-mode: forwards;
 }
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
   #home {
-    padding: 10px 30px;
+    padding: 10px 40px;
   }
   .title {
     font-size: 3.5rem;
@@ -108,7 +108,7 @@ span {
     background-size: 60%;
   }
 }
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
   #home {
     padding: 20px 30px;
   }
@@ -123,7 +123,7 @@ span {
   }
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 480px) {
   #home {
     padding: 10px 20px;
   }

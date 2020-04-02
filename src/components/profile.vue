@@ -40,7 +40,7 @@
   font-size: 4rem;
   font-family: AlfaSlabOne-Regular,sans-serif;
   color: #4a4a4a;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   text-align: left;
   border-bottom: 1px solid #111;
 }
@@ -136,10 +136,10 @@ a {
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
   .title {
-    font-size: 3rem;
-  } 
+    font-size: 3.5rem;
+  }
   .logo {
     font-size: 2.5rem;
   }
@@ -172,7 +172,7 @@ a {
   }
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 480px) {
   #profile {
     padding: 10px 20px;
   }
@@ -181,8 +181,9 @@ a {
     margin: 20px auto;
   }
   .title {
-    font-size: 1.5rem;
-  } 
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
   .logo {
     font-size: 1.5rem;
   }
