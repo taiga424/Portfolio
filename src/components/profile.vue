@@ -49,7 +49,7 @@
 }
 .card {
   /* Styling */
-  width: 800px;
+  width: 80%;
   height: 500px;
   background: rgb(20,20,20);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);

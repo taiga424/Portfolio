@@ -40,24 +40,19 @@ export default {
 </script>
 
 <style scoped>
-*, *::after, *::before {
-  box-sizing: border-box;
-}
 .header {
   position: fixed;
   top: 0;
   z-index: 1;
   width: 100%;
-  height: 50px;
   opacity: 0.6;
   background-color: #111;
 }
 .navbar-nav {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  padding: 5px;
+  padding: 3px;
   justify-content: space-around;
 }
 
@@ -71,6 +66,7 @@ a {
   font-weight: bold;
   padding-bottom: 5px;
 }
+
 a::after {
   width: 100%;
   height: 0;
@@ -84,8 +80,49 @@ a::after {
   margin: auto;
 }
 a:hover::after {
-opacity: 1;
-top: 100%;
-height: 4px;
+  opacity: 1;
+  top: 100%;
+  height: 3px;
+}
+
+@media screen and (max-width: 768px) { 
+  .header {
+    height: 45px;
+  }
+  .collapse{
+    display: block;
+  }
+  .navbar-nav {
+    flex-direction: row;
+  }
+  a {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 480px) { 
+  .header {
+    height: 25px;
+  }
+  .header-nav {
+    padding: 0;
+  }
+  .collapse{
+    display: block;
+  }
+  .navbar-nav {
+    flex-direction: row;
+  }
+  a {
+    font-size: 10px;
+    letter-spacing: 0;
+    padding-bottom: 2px;
+  }
+  a::after {
+    width: 80%;
+    left: 10%;
+  }
+  a:hover::after {
+    height: 2px;
+  }
 }
 </style>

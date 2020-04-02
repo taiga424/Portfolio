@@ -55,6 +55,7 @@ export default {
 .logo {
   position: absolute;
   top: 50%;
+  line-height: 0.5;
 }
 .title {
   font-size: 4rem;
@@ -93,6 +94,9 @@ span {
   animation-fill-mode: forwards;
 }
 @media screen and (max-width: 1024px) { 
+  #home {
+    padding: 10px 30px;
+  }
   .title {
     font-size: 3.5rem;
   }
@@ -105,6 +109,9 @@ span {
   }
 }
 @media screen and (max-width: 768px) { 
+  #home {
+    padding: 20px 30px;
+  }
   .title {
     font-size: 2.5rem;
   }
@@ -117,6 +124,9 @@ span {
 }
 
 @media screen and (max-width: 480px) { 
+  #home {
+    padding: 10px 20px;
+  }
   .title {
     font-size: 1.2rem;
   }
@@ -124,7 +134,7 @@ span {
     font-size: 0.7rem;
   }
   .image {
-    height: 20vh;
+    height: 30vh;
   }
 }
 </style>
