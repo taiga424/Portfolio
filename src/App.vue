@@ -29,15 +29,15 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic');
 #app {
-  font-family: 'Sawarabi Gothic', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #ff7f50;
   text-align: center;
+  font-size: 62.5%;
 }
-html body{
-  background-color: #fafafa;
+li {
+  list-style: none;
+}
+html body {
+  margin: 0;
+  padding: 0;
 }
 </style>

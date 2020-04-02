@@ -52,7 +52,6 @@
 }
 
 .work {
-  list-style: none;
   float: left;
   padding: 0;
 }
