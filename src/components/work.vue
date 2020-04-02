@@ -40,7 +40,6 @@
   padding: 30px;
   background-color: #f6f6f6;
 }
-
 .title {
   font-size: 4rem;
   font-family: AlfaSlabOne-Regular,sans-serif;
@@ -50,7 +49,6 @@
   border-bottom: 1px solid #111;
   margin-bottom: 50px;
 }
-
 .work {
   float: left;
   padding: 0;
@@ -79,16 +77,13 @@ img:hover {
   transform: scale(1.05);
   transition-duration: 0.4s;
 }
-
 .item-title {
-  font-family: 'Sawarabi Gothic', sans-serif;
   font-weight: bold;
   font-size: 20px;
   color: #4a4a4a;
   margin-top: 10px;
 }
 .item-info {
-  font-family: 'Sawarabi Gothic', sans-serif;
   color: #4a4a4a;
   font-size: 14px;
 }
@@ -96,5 +91,47 @@ img:hover {
   content: "";
   clear: both;
   display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 3.5rem;
+  }
+  .work-item {
+    width: 42%;
+  }
+  .item-title {
+    font-size: 1.4rem;
+  }
+  .item-info {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #work {
+    padding: 10px 20px;
+  }
+  .title {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  ul.work li {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  ul.work li:nth-child(even){
+    margin-right: 0;
+  }
+  ul.work li:nth-child(odd){
+    margin-left: 0;
+  }
+  .item-title {
+    font-size: 1rem;
+  }
+  .item-info {
+    font-size: 0.6rem;
+  }
 }
 </style>

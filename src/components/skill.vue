@@ -8,22 +8,18 @@
           <h3 class="card-title">HTML&CSS</h3>
           <p class="card-info">基本的なことは一通りできます。</p>
         </li>
-        <div class="clear"></div>
         <li crass="card" id="javascrpt" v-scroll="frontScroll">
           <h3 class="card-title">javascrpt</h3>
           <p class="card-info">現在勉強中です。簡単な実装はできます。</p>
         </li>
-        <div class="clear"></div>
         <li crass="card" id="vue" v-scroll="frontScroll">
           <h3 class="card-title">Vue.js</h3>
           <p class="card-info">現在勉強中です。このポートフォリオサイトはVue.jsで作成しました。</p>
         </li>
-        <div class="clear"></div>
         <li crass="card" id="jquery" v-scroll="frontScroll">
           <h3 class="card-title">jQuery</h3>
           <p class="card-info">スクールで少し学習した程度です。</p>
         </li>
-        <div class="clear"></div>
       </ul>
       <h2 class="title-skill" >バックエンド</h2>
       <ul class="cards">
@@ -31,12 +27,10 @@
           <h3 class="card-title">Ruby on Rails</h3>
           <p class="card-info">一番最初に触れたバックエンドの言語です。スクールで主に扱っていました。</p>
         </li>
-        <div class="clear"></div>
         <li crass="card" id="mysql" v-scroll="backScroll">
           <h3 class="card-title">MySQL</h3>
           <p class="card-info">MySQLを使ったアプリは何度か作成しました。</p>
         </li>
-        <div class="clear"></div>
       </ul>
       <h2 class="title-skill">そのた</h2>
       <ul class="cards">
@@ -44,12 +38,10 @@
           <h3 class="card-title">GitHub</h3>
           <p class="card-info">基本的な使い方は分かります。</p>
         </li>
-        <div class="clear"></div>
         <li crass="card" id="aws" v-scroll="otherScroll">
           <h3 class="card-title">AWS</h3>
           <p class="card-info">現在勉強中です。何度かAWSでデプロイしました。</p>
         </li>
-        <div class="clear"></div>
       </ul>
     </div>
   </div>
@@ -196,6 +188,7 @@ ul.cards li:nth-child(odd){
   }
   ul.cards li {
     height: 90px;
+    padding: 15px;
   }
   .card-title {
     font-size: 1.3rem;
@@ -222,12 +215,8 @@ ul.cards li:nth-child(odd){
   }
   ul.cards li {
     width: 100%;
-    height: 90px;
     margin: 10px auto;
     padding: 15px;
-  }
-  .clear {
-    clear:both;
   }
   .card-title {
     font-size: 1.1rem;
