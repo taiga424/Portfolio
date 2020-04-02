@@ -24,7 +24,7 @@
         <p class="item-info">スクールのチーム開発で作成しました。<br>フリマアプリです。</p>
       </li>
       <li class="work-item">
-        <a href="#">
+        <a href="https://taiga424.github.io/portfolio">
           <img src="static/Portfolio.png" >
         </a>
         <div class="item-title">Portfolio</div>
