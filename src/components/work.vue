@@ -7,21 +7,21 @@
           <img src="static/Chatspace.png">
         </a>
         <div class="item-title">ChatSpace</div>
-        <p class="item-info">スクールのカリキュラムで作成しました。</p>
+        <p class="item-info">スクールのカリキュラムで作成しました。<br>簡単なメッセージアプリです。</p>
       </li>
       <li class="work-item">
         <a href="http://13.115.54.84/">
           <img src="static/BookLife.png">
         </a>
         <div class="item-title">BookLife</div>
-        <p class="item-info">初めてゼロから自分で作成しました。</p>
+        <p class="item-info">初めてゼロから自分で作成しました。<br>本のレビュー＆検索アプリです。</p>
       </li>
       <li class="work-item">
         <a href="http://18.178.222.209">
           <img src="static/FrimaApp.png" >
         </a>
         <div class="item-title">FrimaApp</div>
-        <p class="item-info">スクールのチーム開発で作成しました。</p>
+        <p class="item-info">スクールのチーム開発で作成しました。<br>フリマアプリです。</p>
       </li>
       <li class="work-item">
         <a href="#">
