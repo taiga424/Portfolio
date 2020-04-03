@@ -65,7 +65,10 @@ a {
   font-weight: bold;
   padding-bottom: 5px;
 }
-
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
 a::after {
   width: 100%;
   height: 0;
@@ -82,8 +85,6 @@ a:hover::after {
   opacity: 1;
   top: 100%;
   height: 3px;
-  text-decoration: none;
-  color: #fff;
 }
 
 @media screen and (max-width: 768px) {
