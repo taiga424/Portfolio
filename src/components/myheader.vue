@@ -55,10 +55,6 @@ export default {
   padding: 3px;
   justify-content: space-around;
 }
-.nav-item a {
-  text-decoration: none;
-  color: #fff;
-}
 a {
   font-size: 17px;
   color: #fff;
@@ -86,6 +82,8 @@ a:hover::after {
   opacity: 1;
   top: 100%;
   height: 3px;
+  text-decoration: none;
+  color: #fff;
 }
 
 @media screen and (max-width: 768px) {
