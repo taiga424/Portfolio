@@ -55,7 +55,10 @@ export default {
   padding: 3px;
   justify-content: space-around;
 }
-
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+}
 a {
   font-size: 17px;
   color: #fff;
