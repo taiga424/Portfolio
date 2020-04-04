@@ -12,9 +12,12 @@
           <div class="image">
             <img src="static/profile.jpeg" alt="Taiga logo">
           </div>
-          <p class="text">Taigaと申します。今年22歳になります。
-          <br>2020年4月にプログラミングスクールTECH CAMPを卒業し、現在は就職活動をしながらVue.jsを学習中です。
-          <br>スクールでは主にHTML&CSSやJavaScript、Ruby on Rails、GitHubを学びました。フロントに興味があります。よろしくお願いします。</p>
+          <p class="text">名前：TAIGA FURUI
+          <br>年齢：21歳
+          <br>フリーター生活を送っていましたが、エンジニアの凄さを知ってから憧れるようになり、プログラミングスクール TECH CAMPに入学。
+          <br>2020年3月28日に卒業し、現在は学習を継続しながら就職活動中。
+          <br>フロントに興味があります。よろしくお願いします。
+          </p>
         </div>
         <div class="info">
           <p><span class="property">Email: </span>taiga_hand4@icloud.com</p>

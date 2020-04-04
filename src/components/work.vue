@@ -7,28 +7,28 @@
           <img src="static/Chatspace.png">
         </a>
         <div class="item-title">ChatSpace</div>
-        <p class="item-info">スクールのカリキュラムで作成しました。<br>簡単なメッセージアプリです。</p>
+        <p class="item-info">Ruby/Ruby on Rails/MySQL/Github/AWS<br>スクールのカリキュラムで作成しました。<br>簡単なメッセージアプリです。</p>
       </li>
       <li class="work-item">
         <a href="http://13.115.54.84/">
           <img src="static/BookLife.png">
         </a>
         <div class="item-title">BookLife</div>
-        <p class="item-info">初めてゼロから自分で作成しました。<br>本のレビュー＆検索アプリです。</p>
+        <p class="item-info">Ruby/Ruby on Rails/MySQL/Github/AWS<br>初めてゼロから自分で作成しました。<br>本のレビュー＆検索アプリです。</p>
       </li>
       <li class="work-item">
         <a href="http://18.178.222.209">
           <img src="static/FrimaApp.png" >
         </a>
-        <div class="item-title">FrimaApp</div>
-        <p class="item-info">スクールのチーム開発で作成しました。<br>フリマアプリです。</p>
+        <div class="item-title">（チーム開発）FrimaApp</div>
+        <p class="item-info">Ruby/Ruby on Rails/MySQL/JavaScript/Github/AWS<br>「ID:team-d,Password:2222」でアクセスできます。</p>
       </li>
       <li class="work-item">
-        <a href="https://taiga424.github.io/portfolio">
+        <a href="https://taiga424.github.io/Portfolio/">
           <img src="static/Portfolio.png" >
         </a>
         <div class="item-title">Portfolio</div>
-        <p class="item-info">このサイトです。Vue.jsを使って作成しました。</p>
+        <p class="item-info">Vue.js/Github<br>Vue.jsの勉強を兼ねて作成しました。</p>
       </li>
     </ul>
   </div>
