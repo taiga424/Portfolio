@@ -13,7 +13,7 @@
             <img src="static/profile.jpeg" alt="Taiga logo">
           </div>
           <p class="text">名前：TAIGA FURUI
-          <br>年齢：21歳
+          <br>年齢：22歳
           <br>フリーター生活を送っていましたが、エンジニアの凄さを知ってから憧れるようになり、プログラミングスクール TECH CAMPに入学。
           <br>2020年3月28日に卒業し、現在は学習を継続しながら就職活動中。
           <br>フロントに興味があります。よろしくお願いします。
