@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
 import Router from 'vue-router'
-import Top from '@/components/top'
 import Home from '@/components/home'
 import Profile from '@/components/profile'
 import Work from '@/components/work'
@@ -14,10 +13,6 @@ Vue.use(BootstrapVue)
 
 export default new Router({
   routes: [
-    {
-      path: '/',
-      component: Top
-    },
     {
       path: '/home',
       component: Home
