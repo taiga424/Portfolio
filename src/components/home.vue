@@ -41,21 +41,24 @@ export default {
 
 #home {
   width: 100%;
-  padding: 50px;
   background-color: #e6e6fa;
   position: relative;
 }
 .image {
   width: 100%;
-  height: 85vh;
+  height: 100vh;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .logo {
   position: absolute;
-  top: 50%;
-  line-height: 0.5;
+  top: 40%;
+  left: 53%;
+  border-radius: 10px;
+  border: 5px double #ff7f50;
+  line-height: 1;
+  background-color: antiquewhite;
 }
 .title {
   font-size: 4rem;
@@ -64,7 +67,7 @@ export default {
   text-align: center;
 }
 .subtitle {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   text-align: center;
 }
 

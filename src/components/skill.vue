@@ -9,16 +9,16 @@
           <p class="card-info">基本的なことは一通りできます。</p>
         </li>
         <li crass="card" id="javascrpt" v-scroll="frontScroll">
-          <h3 class="card-title">javascrpt</h3>
-          <p class="card-info">現在勉強中です。簡単な実装はできます。</p>
+          <h3 class="card-title">javascript</h3>
+          <p class="card-info">簡単な実装はできます。</p>
         </li>
         <li crass="card" id="vue" v-scroll="frontScroll">
           <h3 class="card-title">Vue.js</h3>
-          <p class="card-info">現在勉強中です。このポートフォリオサイトはVue.jsで作成しました。</p>
+          <p class="card-info">このポートフォリオサイトはVue.jsで作成しました。</p>
         </li>
         <li crass="card" id="jquery" v-scroll="frontScroll">
           <h3 class="card-title">jQuery</h3>
-          <p class="card-info">スクールで少し学習した程度です。</p>
+          <p class="card-info">アコーディオンやハンバーガーメニューなどの実装はできます。</p>
         </li>
       </ul>
       <h2 class="title-skill" >バックエンド</h2>
@@ -31,6 +31,10 @@
           <h3 class="card-title">MySQL</h3>
           <p class="card-info">MySQLを使ったアプリは何度か作成しました。</p>
         </li>
+        <li crass="card" id="java" v-scroll="backScroll">
+          <h3 class="card-title">java</h3>
+          <p class="card-info">Java silverの資格は持っています。</p>
+        </li>
       </ul>
       <h2 class="title-skill">そのた</h2>
       <ul class="cards">
@@ -40,7 +44,7 @@
         </li>
         <li crass="card" id="aws" v-scroll="otherScroll">
           <h3 class="card-title">AWS</h3>
-          <p class="card-info">現在勉強中です。何度かAWSでデプロイしました。</p>
+          <p class="card-info">何度かAWSでデプロイしました。</p>
         </li>
       </ul>
     </div>
@@ -162,6 +166,11 @@ ul.cards li:nth-child(odd){
   background-color: #008000;
   transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
 }
+#java {
+  background-color: #ffff00;
+  transition: 2s all cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
 #git {
   background-color: #111;
   transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
