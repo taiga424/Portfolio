@@ -58,7 +58,8 @@ export default {
   border-radius: 10px;
   border: 5px double #ff7f50;
   line-height: 1;
-  background-color: antiquewhite;
+  padding: 10px 25px;
+  background-color: #00000091;
 }
 .title {
   font-size: 4rem;

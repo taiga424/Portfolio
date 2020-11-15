@@ -32,7 +32,7 @@
           <p class="card-info">MySQLを使ったアプリは何度か作成しました。</p>
         </li>
         <li crass="card" id="java" v-scroll="backScroll">
-          <h3 class="card-title">java</h3>
+          <h3 class="card-title">Java</h3>
           <p class="card-info">Java silverの資格は持っています。</p>
         </li>
       </ul>
@@ -167,7 +167,7 @@ ul.cards li:nth-child(odd){
   transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 #java {
-  background-color: #ffff00;
+  background-color: #007fff;
   transition: 2s all cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
