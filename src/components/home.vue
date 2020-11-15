@@ -48,7 +48,7 @@ export default {
 .image {
   width: 100%;
   height: 85vh;
-  background-size: 55%;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -61,11 +61,11 @@ export default {
   font-size: 4rem;
   font-weight: bold;
   text-shadow: 2px 2px rgba(0,0,0,.2);
-  text-align: left;
+  text-align: center;
 }
 .subtitle {
   font-size: 2.5rem;
-  text-align: left;
+  text-align: center;
 }
 
 @keyframes titleIn {
